@@ -8,3 +8,30 @@ obj1 = Computer()
 obj2 = Computer()
 Computer.config()
 ```
+
+```python
+class Computer:
+    def __init__(self):
+        print("luchi")
+    def config(self):
+        print("luchiiii")
+obj1 = Computer()
+obj2 = Computer()
+```
+OP : 
+luchi
+luchi
+
+---
+```python
+class Computer:
+    def __init__(self):
+        print("luchi")
+    def config(self):
+        print("luchiiii")
+# obj1 = Computer()
+# obj2 = Computer()
+Computer.config(Computer())
+```
+OP : luchi
+luchiiii
