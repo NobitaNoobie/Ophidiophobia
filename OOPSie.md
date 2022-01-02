@@ -33,8 +33,8 @@ class Computer:
 # obj2 = Computer()
 Computer.config(Computer())
 ```
-OP : luchi
-luchiiii
+OP : luchi luchiiii
+
 ---
 
 ``` python
