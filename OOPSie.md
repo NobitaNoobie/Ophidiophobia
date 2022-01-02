@@ -35,3 +35,9 @@ Computer.config(Computer())
 ```
 OP : luchi
 luchiiii
+---
+
+``` python
+ def compare(self,onno,lol):
+        #compare (who is calling , whom to compare, an orphan)
+        pass ```
